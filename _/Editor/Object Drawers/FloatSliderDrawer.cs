@@ -1,4 +1,5 @@
-﻿using BehaviorDesigner.Runtime;
+﻿#if UNITY_EDITOR
+using BehaviorDesigner.Runtime;
 using BehaviorDesigner.Runtime.ObjectDrawers;
 using UnityEditor;
 using UnityEngine;
@@ -23,3 +24,4 @@ namespace BehaviorDesigner.Editor.ObjectDrawers
         }
     }
 }
+#endif

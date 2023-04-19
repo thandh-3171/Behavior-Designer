@@ -1,4 +1,5 @@
-﻿using BehaviorDesigner.Runtime.Tasks;
+﻿#if UNITY_EDITOR
+using BehaviorDesigner.Runtime.Tasks;
 using System;
 using System.Reflection;
 using UnityEditor;
@@ -155,3 +156,4 @@ namespace BehaviorDesigner.Editor.ObjectDrawers
         }
     }
 }
+#endif

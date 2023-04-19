@@ -1,3 +1,4 @@
+#if UNITY_EDITOR
 using BehaviorDesigner.Runtime;
 using UnityEditor;
 
@@ -9,3 +10,4 @@ namespace BehaviorDesigner.Editor
         // intentionally left blank
     }
 }
+#endif
